@@ -51,34 +51,3 @@ export const Navbar = () => {
 
 
 
-//<div className="collapse navbar-collapse" id="navbarNav">
-//<ul className="navbar-nav">
-//  <li className="nav-item">
-//    <a className="nav-link text-light" href="#">Home</a>
-//  </li>
-//  <li className="nav-item">
-//    <a className="nav-link text-light" href="#">Features</a>
-//  </li>
-//  <li className="nav-item">
-//    <a className="nav-link text-light" href="#">Pricing</a>
-//  </li>
-//  <li className="nav-item">
-//    <a className="nav-link text-light">Disabled</a>
-//  </li>
-//</ul>
-//</div>
-
-//<nav className="navbar bg-dark">
-//          <div className="container-fluid">
-//            <div className="row justify-content-center">
-//                <div className="col-12">
-//                    <a className="navbar-brand text-light" href="#">React Music Player</a>
-//                    <a className="navbar-brand text-light" href="#">Autores</a>
-//                    <a className="navbar-brand text-light" href="#">Categorias</a>
-//                </div>
-//
-//
-//            </div>
-//            
-//          </div>
-//        </nav>
