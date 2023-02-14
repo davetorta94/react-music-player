@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+.component {
+  background-color: #252525;
+  width: 60vh;
+  max-width: 600px;
+  height: 80vh;
+  margin: 2em auto;
+  padding-bottom: 2em;
+  border: 0.1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  color: antiquewhite;
+  -webkit-box-shadow: 12px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 12px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 12px 10px 5px 0px rgba(0,0,0,0.75);
+  
+}
+
+
+.musicCover {
+  border-radius: 10%;
+  width: 100%;
+  max-height: 45%;
+}
+
+.playButton {
+  background: none;
+  border: none;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.time {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  color: #828282;
+  font-size: smaller;
+}
+
+.timeline {
+  width: 80%;
+  background-color: #27ae60;
+}
+
+input[type="range"] {
+  background-color: #27ae60;
+}
+
+
+
+.fondo {
+  background-color: #9696a0;
+  opacity: 0.8;
+  background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #9696a0 10px ), repeating-linear-gradient( #100f1355, #100f13 );
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vh;
+  height: 100vh;
+}
+
+.login-fondo {
+  background-color: #252525;
+  width: 100px;
+  height: 300px;
+}
+
+/*@media only screen and (max-width: 600px) {
+  .login-fondo {
+
+  }
+}*/
