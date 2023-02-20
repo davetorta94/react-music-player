@@ -78,7 +78,7 @@ export const Player = () => {
       
       
     } else {
-      play()
+      play();
       setIsPlaying(true);
       
     }
