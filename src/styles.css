@@ -74,11 +74,18 @@ input[type="range"] {
   height: 300px;
 }
 
-/*@media only screen and (max-width: 600px) {
-  .login-fondo {
 
+
+@media only screen and (max-width: 990px) {
+  .fondo {
+    height: 100%;
   }
-}*/
+  .responsive-card {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+  }
+}
 
 .ancho {
   width: 18rem;

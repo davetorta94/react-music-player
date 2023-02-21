@@ -136,10 +136,10 @@ useEffect(() => {
     <>
     {!fullScreen ? (
       <>
-           <div className="container-fluid fondo-menu w-75">
-            <div className="row d-flex justify-content-center mt-4">
+           <div className="container-fluid fondo-menu w-75 h-100 mb-5">
+            <div className="row d-flex justify-content-center justify-content-sm-center  mt-4">
 
-                <div className="col-lg-3 col-md-6 mx-2">
+                <div className="col-lg-3 col-md-6 justify-content-sm-center mx-2">
                     <div className="card ancho bg-black text-white border border-white">
                         <img src={musicLogo} className="card-img-top" alt="..."/>
                         <div className="card-body">
@@ -166,7 +166,7 @@ useEffect(() => {
                     </div>
                 </div>
 
-                <div className="col-lg-3 col-md-6 mx-2">
+                <div className="col-lg-3 col-md-6 justify-content-sm-center mx-2">
                     <div className="card ancho bg-black text-white border border-white">
                         <img src={musicLogo} className="card-img-top" alt="..."/>
                         <div className="card-body">
@@ -194,7 +194,7 @@ useEffect(() => {
                     </div>
                 </div>
 
-                <div className="col-lg-3 col-md-6 mx-2">
+                <div className="col-lg-3 col-md-6 justify-content-sm-center mx-2">
                     <div className="card ancho bg-black text-white border border-white">
                         <img src={musicLogo} className="card-img-top" alt="..."/>
                         <div className="card-body">
@@ -226,7 +226,7 @@ useEffect(() => {
                      </div>
                  </div>
                                  
-                  <div className={`row barra-reproduccion d-flex justify-content-evenly ${(isPlaying) === true ? 'fixed-bottom m-0' : 'd-none'}`}>
+                  <div className={`row barra-reproduccion d-flex justify-content-evenly mt-5 ${(isPlaying) === true ? 'fixed-bottom m-0' : 'd-none'}`}>
                    <div className="col-2">
                    <span className="spinner">
                      <div className="spinnerin"></div>
@@ -329,4 +329,6 @@ useEffect(() => {
   )
 }
 
+
+// size: "2em", color: "white", style : {backgroundColor: "black"} 
 
